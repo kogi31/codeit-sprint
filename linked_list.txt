@@ -1,0 +1,63 @@
+Linked List
+Insertion Methods
+append(value): Adds a new node with the given value to the end of the list.
+prepend(value): Adds a new node with the given value to the beginning of the list.
+insert_after(node, value): Inserts a new node with the given value after a specified node in the list.
+
+Deletion Methods
+delete(value): Removes the first node with the specified value from the list.
+delete_head(): Removes the head (first node) of the list.
+delete_tail(): Removes the tail (last node) of the list.
+delete_after(node): Removes the node immediately following the specified node.
+
+Traversal Methods
+find(value): Searches for a node containing the specified value and returns it if found.
+traverse(): Iterates over all nodes in the list, typically used to print the values or perform some action on each node.
+
+Utility Methods
+size(): Returns the number of nodes in the list.
+is_empty(): Checks if the list is empty.
+reverse(): Reverses the order of the nodes in the list.
+get_head(): Returns the head (first node) of the list.
+get_tail(): Returns the tail (last node) of the list.
+
+Display Method
+__str__() or __repr__(): Provides a string representation of the list for easy visualization.
+
+Optional Methods
+sort(): Sorts the elements of the linked list.
+merge(other_list): Merges another linked list into the current list.
+
+
+
+Doubly Linked List
+Insertion Methods
+append(value): Adds a new node with the given value to the end of the list.
+prepend(value): Adds a new node with the given value to the beginning of the list.
+insert_after(node, value): Inserts a new node with the given value after a specified node.
+insert_before(node, value): Inserts a new node with the given value before a specified node.
+
+Deletion Methods
+delete(value): Removes the first node with the specified value from the list.
+delete_head(): Removes the head (first node) of the list.
+delete_tail(): Removes the tail (last node) of the list.
+delete_node(node): Removes a specific node from the list.
+
+Traversal Methods
+find(value): Searches for a node containing the specified value and returns it if found.
+traverse_forward(): Iterates over the list from the head to the tail, typically used to print the values or perform some action on each node.
+traverse_backward(): Iterates over the list from the tail to the head, useful for certain algorithms or simply to display the list in reverse order.
+
+Utility Methods
+size(): Returns the number of nodes in the list.
+is_empty(): Checks if the list is empty.
+reverse(): Reverses the order of the nodes in the list by swapping the next and previous pointers.
+get_head(): Returns the head (first node) of the list.
+get_tail(): Returns the tail (last node) of the list.
+
+Display Methods
+__str__() or __repr__(): Provides a string representation of the list for easy visualization, either forward or backward.
+
+Optional Methods
+sort(): Sorts the elements of the doubly linked list.
+merge(other_list): Merges another doubly linked list into the current list.
